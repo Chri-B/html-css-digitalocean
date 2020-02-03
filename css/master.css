@@ -15,6 +15,55 @@
 .ms--button-blue:hover {
     background-color: #1633ff;
 }
+/* stilizzazione barra fissa */
+.barra-fissa {
+    background-color: white;
+}
+
+.barra-fissa span {
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.ms--hamburger {
+    background-color: white;
+    border: none;
+}
+
+.barra-fissa {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+/* stilizzazione menu monitor */
+#menu-esteso {
+    display: none;
+}
+
+#menu-esteso h4 {
+    font-size: 18px;
+}
+
+#menu-esteso div:hover h4 {
+    color: #148f77;
+    cursor: pointer;
+}
+/* stilizzazione menu per monitor oltre >969px */
+@media screen and (min-width: 992px) {
+    #hamburger {
+        display: none;
+    }
+
+    #menu-esteso {
+        display: inherit;
+    }
+}
+
+
+
 /* stilizzazione sfondo ocean */
 .sfondo-ocean {
     background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
