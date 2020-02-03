@@ -21,7 +21,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/* sfondo grigio */
+.sfondo-grigio {
+    background-color: #f3f5f9;
+}
 .testo-grigio {
     color: #ccdaff;
 }
@@ -141,4 +144,10 @@ h1 {
     font-size: 12px;
     text-align: center;
     padding-top: 40px;
+}
+/* inizio sezione second */
+
+
+.second img {
+    max-width: 120px;
 }
