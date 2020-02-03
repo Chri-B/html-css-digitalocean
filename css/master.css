@@ -1,0 +1,144 @@
+/* stili button base Digital Ocean */
+.ms--button-sign-up {
+    background-color: white;
+    color: #026aff;
+    padding: 8px 15px;
+    border: 1px solid #026aff;
+    border-radius: 5px;
+}
+
+.ms--button-blue {
+    background-color: #0069ff;
+    color: white;
+    border: none;
+}
+.ms--button-blue:hover {
+    background-color: #1633ff;
+}
+/* stilizzazione sfondo ocean */
+.sfondo-ocean {
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testo-grigio {
+    color: #ccdaff;
+}
+/* stilizzazione section */
+section {
+    padding: 50px 0;
+}
+/* stilizzazione header */
+header {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    line-height: 70px;
+    background-color: white;
+}
+
+.logo-digitalocean {
+    height: 50px;
+    width: 250px;
+    transform: translateY(-140%);
+    margin-right: 50px;
+}
+
+.navbar {
+    overflow-y: hidden;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #0e2556;
+    font-weight: 500;
+    padding-right: 15;
+}
+
+#ms--padding-button {
+    padding-top: 0;
+}
+
+/* inizio prima sezione  */
+.jumbotron {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding: 40px 20px 20px;
+}
+
+.jumbotron h4 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.ms--jumbotron {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.ms--jumbotron p {
+    padding: 40px 0;
+    font-size: 24px;
+}
+
+.linea-divisoria {
+    text-align: center;
+    padding: 20px 0;
+    color: #8b95aa;
+}
+
+.linea-divisoria::after,
+.linea-divisoria::before {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 1px;
+    background-color: #8b95aa;
+    position: relative;
+    bottom: 5px;
+    margin: 0 3%;
+}
+
+.linea-divisoria span {
+    font-size: 16px;
+}
+
+.bottoni-sign-up span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.bottoni-sign-up .btn {
+    background-color: #f2f8ff;
+    border-color: #c2dcff;
+}
+
+.bottoni-sign-up .btn:hover {
+    background-color: #d5e4f7;
+}
+
+.jumbotron p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+}
