@@ -134,7 +134,7 @@ section {
     padding: 50px 0;
 }
 /* stilizzazione header */
-header {
+/* header {
     height: 70px;
     position: sticky;
     top: 0;
@@ -143,6 +143,10 @@ header {
     z-index: 999;
     line-height: 70px;
     background-color: white;
+} */
+
+.barra-fissa .glyphicon-menu-down {
+    font-size: 10px;
 }
 
 .logo-digitalocean {
