@@ -254,13 +254,13 @@ h1 {
     color: #939eb4;
 }
 
-.second a {
+.ms--link {
     font-size: 16px;
     color: #0069ff;
 }
 
 /* inizio sezione third */
-.third i {
+.ms--icona-card {
     font-size: 40px;
     color: #0069ff;
 }
@@ -289,6 +289,11 @@ h1 {
 }
 
 /* inizio sezione fourth */
+.freccia-hidden span {
+    padding-top: 150px;
+    font-size: 30px;
+    display: none;
+}
 
 .ms--img-grande {
     align-items: center;
@@ -296,4 +301,61 @@ h1 {
 
 .fourth .ms--paragraph {
     font-size: 16px;
+    padding-top: 40px;
+}
+
+.fourth i {
+    padding: 0 2%;
+    color: #0069ff;
+}
+
+@media screen and (min-width: 768px) {
+    .freccia-hidden span {
+        display: inherit;
+    }
+}
+
+/* inizio sezione fifth */
+.fifth p {
+    padding-bottom: 20px;
+}
+
+.fifth .card-5 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* inizio sezione sixth */
+.sixth {
+    background-color: #031b4e;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #8691aa;
+}
+
+.sixth h2 {
+    color: white;
+    padding-bottom: 60px;
+}
+
+#spaziatura-elenco {
+    padding-bottom: 40px;
+}
+
+.ms--div-capitali {
+    padding-top: 10px;
+    border-bottom: 1px solid #354971;
+}
+
+.ms--div-capitali-ultimo {
+    padding-top: 10px;
+}
+
+.sixth .codice {
+    color: white;
+}
+
+.sixth a {
+    color: #00d7d2;
 }
