@@ -49,6 +49,7 @@ h2 {
     color: white;
     border: none;
 }
+
 .ms--button-blue:hover {
     background-color: #1633ff;
 }
@@ -415,4 +416,34 @@ h1 {
     color: white;
 }
 
-.eighth .ms--button-blue
+/* inizio footer */
+footer {
+    padding: 50px 0;
+    background-color: #010e28;
+    color: #767d8b;
+}
+
+footer h4 {
+    color: white;
+    margin-top: 40px;
+}
+
+footer i {
+    font-size: 50px;
+    color: #0080ff;
+    padding-bottom: 20px;
+}
+
+footer span {
+    font-size: 12px;
+    color: #4f586a;
+}
+
+footer ul li {
+    line-height: 30px;
+}
+
+footer ul li:hover {
+    color: white;
+    cursor: pointer;
+}
