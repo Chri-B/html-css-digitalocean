@@ -287,3 +287,13 @@ h1 {
 #menu-deploy ul {
     margin: 0 0 40px 40px;
 }
+
+/* inizio sezione fourth */
+
+.ms--img-grande {
+    align-items: center;
+}
+
+.fourth .ms--paragraph {
+    font-size: 16px;
+}
