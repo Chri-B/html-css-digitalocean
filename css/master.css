@@ -1,10 +1,10 @@
 /* stili button base Digital Ocean */
 .ms--button-sign-up {
-    background-color: white;
     color: #026aff;
     padding: 8px 15px;
     border: 1px solid #026aff;
     border-radius: 5px;
+    margin-top: 6px;
 }
 
 .ms--button-blue {
@@ -17,7 +17,7 @@
 }
 /* stilizzazione barra fissa */
 .barra-fissa {
-    background-color: white;
+    background-color: transparent;
 }
 
 .barra-fissa span {
@@ -26,16 +26,24 @@
 }
 
 .ms--hamburger {
-    background-color: white;
+    background-color: transparent;
     border: none;
 }
 
 .barra-fissa {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+}
+
+.glyphicon-menu-hamburger {
+    color: white;
+}
+
+#sign-up-navbar {
+    display: none;
 }
 
 /* stilizzazione menu monitor */
@@ -51,18 +59,24 @@
     color: #148f77;
     cursor: pointer;
 }
-/* stilizzazione menu per monitor oltre >969px */
+/* stilizzazione menu */
 @media screen and (min-width: 992px) {
+    .barra-fissa {
+        background-color: white;
+    }
+
     #hamburger {
         display: none;
+    }
+
+    #sign-up-navbar {
+        display: inherit;
     }
 
     #menu-esteso {
         display: inherit;
     }
 }
-
-
 
 /* stilizzazione sfondo ocean */
 .sfondo-ocean {
@@ -119,6 +133,10 @@ header {
 }
 
 /* inizio prima sezione  */
+
+.first {
+    padding-top: 100px;
+}
 .jumbotron {
     margin-bottom: 0;
     background-color: white;
@@ -196,7 +214,15 @@ h1 {
 }
 /* inizio sezione second */
 
-
 .second img {
     max-width: 120px;
+}
+
+.second h4 {
+    color: #939eb4;
+}
+
+.second p {
+    font-size: 16px;
+    color: #0069ff;
 }
