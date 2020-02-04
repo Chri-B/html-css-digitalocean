@@ -359,3 +359,43 @@ h1 {
 .sixth a {
     color: #00d7d2;
 }
+
+/* inizio sezione seventh */
+
+.seventh i {
+    padding: 40px 2%;
+    color: #0069ff;
+}
+
+.glyphicon-menu-left {
+    color: #a9b2c4;
+}
+
+.seventh .jumbotron {
+    color: #727f9c;
+    border: 1px solid #e5e8ed;
+}
+
+.immagine-max-width {
+    max-width: 200px;
+}
+
+.seventh img {
+    padding-bottom: 20px;
+}
+
+.seventh h3 {
+    font-weight: 200;
+    line-height: 40px;
+}
+
+.seventh h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seventh .aria-link {
+    padding: 20px;
+}
+
+/* inizio sezione eighth */
