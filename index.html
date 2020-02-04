@@ -6,10 +6,11 @@
         <title>DigitalOcean</title>
         <script src="https://kit.fontawesome.com/b125f3be7d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/master.css">
     </head>
     <body>
-        <!-- <header> NAVBAR DI BOOTSTRAP - NON UTILIZZATA PERCHE' ECCESSIVAMENTE DIFFICOLTOSA DA PERSONALIZZARE - RIGHE DI CODICE SCRITTE COMUNQUE PER ESERCITAZIONE
+        <!-- <header> NAVBAR DI BOOTSTRAP - NON UTILIZZATA - RIGHE DI CODICE SCRITTE COMUNQUE PER ESERCITAZIONE
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -47,46 +48,46 @@
                                 <img class="img-responsive center-block" src="https://cdn.freebiesupply.com/logos/thumbs/1x/digitalocean-2-logo.png" alt="logo digitalocean">
                             </div>
                         </div>
-                        <div id="contenitore-hamburger" class="col-xs-2 col-md-7">
+                        <div id="contenitore-hamburger" class="col-xs-2 col-md-7 text-right">
                             <div id="hamburger">
                                 <button type="button" class="ms--hamburger">
                                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                                 </button>
                             </div>
-                            <div id="menu-esteso" class="row-no-gutters">
+                            <div id="menu-esteso" class="row-no-gutters text-center">
                                 <div class="col-md-2">
-                                    <span class="">
-                                        Products
+                                    <span>
+                                        Products <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                                     </span>
                                 </div>
                                 <div class="col-md-2">
-                                    <span class="">
+                                    <span>
                                         Marketplace
                                     </span>
                                 </div>
                                 <div class="col-md-2">
-                                    <span class="">
+                                    <span>
                                         Customers
                                     </span>
                                 </div>
                                 <div class="col-md-2">
-                                    <span class="">
+                                    <span>
                                         Partners
                                     </span>
                                 </div>
                                 <div class="col-md-2">
-                                    <span class="">
-                                        Community
+                                    <span>
+                                        Community <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                                     </span>
                                 </div>
                                 <div class="col-md-2">
-                                    <span class="">
+                                    <span>
                                         Pricing
                                     </span>
                                 </div>
                             </div>
                         </div>
-                        <div id="sign-up-navbar" class="col-xs-2 col-md-2">
+                        <div id="sign-up-navbar" class="col-xs-2 col-md-2 text-right">
                             <button class="ms--button-sign-up">Sign Up</button>
                         </div>
                     </div>
@@ -158,32 +159,89 @@
                 </div>
             </div>
         </section>
-        <section class="second sfondo-grigio text-center">
+        <section id="customers" class="second sfondo-grigio text-center">
             <div class="container">
-                <h4 class="text-uppercase">innovative business trust digitalocean</h4>
                 <div class="row">
-                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="docker">
-                    </div>
-                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="gitlab">
-                    </div>
-                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack">
-                    </div>
-                    <div class="col-xs-6 col-sm-2 col-md-12 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp">
-                    </div>
-                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
-                    </div>
-                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk">
+                    <div class="col-xs-12 text-center">
+                        <h4 class="text-uppercase">innovative business trust digitalocean</h4>
                     </div>
                 </div>
-                <p>
-                    See business solutions <span class="glyphicon glyphicon-triangle-right"></span>
-                </p>
+                <ul class="row list-unstyled">
+                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="docker">
+                    </li>
+                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="gitlab">
+                    </li>
+                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack">
+                    </li>
+                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp">
+                    </li>
+                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
+                    </li>
+                    <li id="splunk" class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk">
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="#">
+                            See business solutions <span class="glyphicon glyphicon-triangle-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <div class="container">
+                <div class="row aria-top">
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Deploy and scale seamlessly</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="text-center ms--paragraph">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="menu-deploy" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <nav>
+                            <ul class="list-unstyled">
+                                <li id="bordo-blu">Deploy</li>
+                                <li>Scale</li>
+                                <li>Store</li>
+                                <li>Secure</li>
+                                <li>Monitor</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="col-xs-6">
+                            <i class="icona-card fas fa-dharmachakra"></i>
+                            <h4 class="titolo-card">Kubernetes in minutes</h4>
+                            <p class="testo-card ms--paragraph">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fas fa-tint"></i>
+                            <h4 class="titolo-card">Flexible compute types</h4>
+                            <p class="testo-card ms--paragraph">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fas fa-first-aid"></i>
+                            <h4 class="titolo-card">1-Click App Marketplace</h4>
+                            <p class="testo-card ms--paragraph">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fas fa-globe"></i>
+                            <h4 class="titolo-card">Global availability</h4>
+                            <p class="testo-card ms--paragraph">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </body>

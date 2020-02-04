@@ -1,3 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #031b4e;
+    padding-bottom: 20px;
+}
+
+.ms--paragraph {
+    font-size: 20px;
+    color: #4e5f83;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+/* stilizzazione sfondo ocean */
+.sfondo-ocean {
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* sfondo grigio */
+.sfondo-grigio {
+    background-color: #f3f5f9;
+}
+/* testo grigio */
+.testo-grigio {
+    color: #ccdaff;
+}
 /* stili button base Digital Ocean */
 .ms--button-sign-up {
     color: #026aff;
@@ -5,6 +38,10 @@
     border: 1px solid #026aff;
     border-radius: 5px;
     margin-top: 6px;
+}
+.ms--button-sign-up:hover {
+    color: white;
+    background-color: #026aff;
 }
 
 .ms--button-blue {
@@ -17,7 +54,7 @@
 }
 /* stilizzazione barra fissa */
 .barra-fissa {
-    background-color: transparent;
+    background-color: #0049ff;
 }
 
 .barra-fissa span {
@@ -28,14 +65,6 @@
 .ms--hamburger {
     background-color: transparent;
     border: none;
-}
-
-.barra-fissa {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
 }
 
 .glyphicon-menu-hamburger {
@@ -65,6 +94,14 @@
         background-color: white;
     }
 
+    .barra-fissa {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+
     #hamburger {
         display: none;
     }
@@ -78,19 +115,7 @@
     }
 }
 
-/* stilizzazione sfondo ocean */
-.sfondo-ocean {
-    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/* sfondo grigio */
-.sfondo-grigio {
-    background-color: #f3f5f9;
-}
-.testo-grigio {
-    color: #ccdaff;
-}
+
 /* stilizzazione section */
 section {
     padding: 50px 0;
@@ -111,11 +136,6 @@ header {
     height: 50px;
     width: 250px;
     transform: translateY(-140%);
-    margin-right: 50px;
-}
-
-.navbar {
-    overflow-y: hidden;
 }
 
 .navbar-default {
@@ -212,17 +232,58 @@ h1 {
     text-align: center;
     padding-top: 40px;
 }
-/* inizio sezione second */
 
-.second img {
-    max-width: 120px;
+/* inizio sezione second */
+#customers li img {
+    height: 100px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 450px) {
+    #splunk img {
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #splunk img {
+        max-width: 150px;
+    }
 }
 
 .second h4 {
     color: #939eb4;
 }
 
-.second p {
+.second a {
     font-size: 16px;
     color: #0069ff;
+}
+
+/* inizio sezione third */
+.third i {
+    font-size: 40px;
+    color: #0069ff;
+}
+
+.titolo-card {
+    padding-bottom: 10px;
+    color: #031b4e;
+}
+
+.testo-card {
+    font-size: 16px;
+}
+
+#menu-deploy li {
+    font-size: 20px;
+    padding: 20px 0 20px 20px;
+    border-left: 2px solid #e5e8ed;
+}
+
+#menu-deploy #bordo-blu {
+    border-left: 2px solid #0069ff;
+}
+
+#menu-deploy ul {
+    margin: 0 0 40px 40px;
 }
